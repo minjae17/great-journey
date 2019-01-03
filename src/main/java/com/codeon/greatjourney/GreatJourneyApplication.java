@@ -1,9 +1,10 @@
 package com.codeon.greatjourney;
 
-import com.codeon.greatjourney.webservice.domain.posts.Posts;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+@EnableJpaAuditing // JPA Auditing 활성화
 @SpringBootApplication
 public class GreatJourneyApplication {
 
